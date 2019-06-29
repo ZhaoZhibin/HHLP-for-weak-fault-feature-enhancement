@@ -25,6 +25,7 @@ if ~isfield(Params, 'W_type')
 else
     W_type = Params.W_type;
 end
+fprintf(sprintf('HHLP with W_type: %s.\n', W_type));
 % Define the weight information
 J1 = numel(x);
 N = length(A(x));

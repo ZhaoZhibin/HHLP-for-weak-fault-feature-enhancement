@@ -87,13 +87,12 @@ end
 fprintf('\n');
 %% starting HHLP
 fprintf(sprintf('performing starting HHLP...\n'));
-fprintf(sprintf('HHLP with W_type: %s, shrinkage: %s.\n', Params.W_type, Params.shrinkage));
 % Initialize the coefficients
 init = AH(y);
 
 % Define the weight information
 Weight = Cal_Weight(init, A, AH, Params);
-
+fprintf(sprintf('HHLP with shrinkage: %s.\n', shrinkage));
 % Other initialization
 cost  = zeros(Nit , 1);
 mu    = 0.9;
