@@ -1,4 +1,4 @@
-# HHLP-for-weak-fault-feature-enhancement
+﻿# HHLP-for-weak-fault-feature-enhancement
 
 [![lic-image]][lic-url]
 
@@ -49,4 +49,3 @@ If you feel our HHLP is useful for your research, please consider citing our pap
 ```
 
 [lic-image]: https://img.shields.io/aur/license/pac.svg
-[lic-url]: https://github.com/xiaoyufenfei/ESNet/blob/master/LICENSE
