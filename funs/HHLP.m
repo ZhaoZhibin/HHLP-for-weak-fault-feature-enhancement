@@ -2,8 +2,6 @@ function [y_out, cost] = HHLP(y, Params)
 % This function solves the following optimization problem:
 % with (p=1: soft thresholding, p=0.5: half thresholding)
 % min 1/2 * ||y - A*x||^2 + lambda * ||Wx||_p^p
-% This function creates the simulation containing impulses, harmonic
-% and noise
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Input %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % y:                          The input signal
 % Params: a struct contains all the parameters
@@ -17,13 +15,13 @@ function [y_out, cost] = HHLP(y, Params)
 %       Params.shrinkage:     The shrinkage function: 'soft' or 'half'(default: 'half')
 %       Params.Nit:           Number of iterations (default: 100)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Output %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Sig:                        The denoised signal
-% t:                          The history of the cost function
+% y_out:                      The denoised signal
+% cost:                       The history of the cost function
 
 
 % Reference: 'Hierarchical hyper-Laplacian prior for weak fault feature
 % enhancement', ISA Transactions, 2019
-% https://www.researchgate.net/profile/Zhibin_Zhao5
+% https://zhaozhibin.github.io/
 % Author : Zhibin Zhao
 % Place  : Xi'an Jiaotong University
 % Email  : zhibinzhao1993@gmail.com

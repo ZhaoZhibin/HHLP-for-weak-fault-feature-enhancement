@@ -1,8 +1,7 @@
 function [ Weight ] = Cal_Weight(x, A, AH, Params)
-% This function creates the simulation containing impulses, harmonic
-% and noise
+% This function calculate the weights
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Input %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% x:                          The generated weight vector
+% x:                          The input signal
 % A:                          Function handles for the transform A
 % AH:                         Function handles for the inverse transform A
 % Params: a struct contains all the parameters
