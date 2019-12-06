@@ -1,6 +1,5 @@
 # HHLP-for-weak-fault-feature-enhancement
 
-[![lic-image]][lic-url]
 
 This repository contains the implementation details of our paper: [ISA Transactions]
 "[**Hierarchical hyper-Laplacian prior for weak fault feature enhancement**](https://doi.org/10.1016/j.isatra.2019.06.007)" 
@@ -49,4 +48,4 @@ If you feel our HHLP is useful for your research, please consider citing our pap
 ```
 ## Contact
 - zhibinzhao1993@gmail.com
-[lic-image]: https://img.shields.io/aur/license/pac.svg
+
