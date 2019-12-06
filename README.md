@@ -35,7 +35,7 @@ open it with matlab
 -  Test Your Own Data: Run `Test_Your_Own_Data.m`. 
 
 
-## Citing HHLP
+## Citation
 If you feel our HHLP is useful for your research, please consider citing our paper: 
 
 ```
@@ -47,5 +47,6 @@ If you feel our HHLP is useful for your research, please consider citing our pap
   publisher={Elsevier}
 }
 ```
-
+## Contact
+- zhibinzhao1993@gmail.com
 [lic-image]: https://img.shields.io/aur/license/pac.svg
