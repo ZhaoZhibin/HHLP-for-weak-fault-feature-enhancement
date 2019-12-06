@@ -1,10 +1,10 @@
-﻿# HHLP-for-weak-fault-feature-enhancement
+# HHLP-for-weak-fault-feature-enhancement
 
 [![lic-image]][lic-url]
 
-This repository contains the implementation details of our paper: [[ISA Transactions]](https://doi.org/10.1016/j.isatra.2019.06.007)
-"**Hierarchical hyper-Laplacian prior for weak fault feature enhancement**" 
-by [Zhibin Zhao](https://www.researchgate.net/profile/Zhibin_Zhao5). 
+This repository contains the implementation details of our paper: [ISA Transactions]
+"[**Hierarchical hyper-Laplacian prior for weak fault feature enhancement**](https://doi.org/10.1016/j.isatra.2019.06.007)" 
+by [Zhibin Zhao](https://zhaozhibin.github.io/). 
 
 
 ## About
